@@ -6,7 +6,7 @@ This is a fully-functional blogging website created using express, MySQL as a da
 
 ## Link to Deployed Website:
 
-https://github.com/ericjcili/challenge-14
+https://eric-tech-blog.herokuapp.com/
 
 ## User Story
 ```
