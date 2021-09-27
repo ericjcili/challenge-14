@@ -20,7 +20,6 @@ async function editFormHandler(event) {
       });
     if (response.ok) {
         document.location.replace('/dashboard');
-        // otherwise, display the error
         } else {
         alert(response.statusText);
         }
