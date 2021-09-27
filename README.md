@@ -8,14 +8,14 @@ This is a fully-functional blogging website created using express, MySQL as a da
 
 https://github.com/ericjcili/challenge-14
 
-##User Story
+## User Story
 ```
 AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
-##Acceptance Criteria
+## Acceptance Criteria
 ```
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
@@ -54,9 +54,10 @@ THEN I am automatically signed out of the site
 
 ## Installation Guidelines
 
-Add a .env file to the root of the project
+Add a .env file to the root of the project with the following text
 ```
-DB_NAME='tech_blog_db'
+DB_NAME='MVC_tech_blog_db'
 DB_USER='root'
-DB_PW='XXX'
+DB_PW='password'
+DB_SESSION_SECRET='keyboard cat'
 ```
